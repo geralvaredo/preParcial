@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ControlEntidadComponent } from './control-entidad.component';
+import { PrincipalComponent } from './principal.component';
 
-describe('ControlEntidadComponent', () => {
-  let component: ControlEntidadComponent;
-  let fixture: ComponentFixture<ControlEntidadComponent>;
+describe('PrincipalComponent', () => {
+  let component: PrincipalComponent;
+  let fixture: ComponentFixture<PrincipalComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ControlEntidadComponent ]
+      declarations: [ PrincipalComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ControlEntidadComponent);
+    fixture = TestBed.createComponent(PrincipalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
