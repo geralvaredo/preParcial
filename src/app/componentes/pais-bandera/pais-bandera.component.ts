@@ -14,11 +14,11 @@ export class PaisBanderaComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  guardar(nombre: string): any{
-    this.paisGuardado.emit(nombre);
+  guardarPais(nombre: string): any{
+    this.guardar.emit(nombre);
   }
-  detalle(pais: any): any{
-    this.paisDetalle.emit(pais);
+  detallePais(pais: any): any{
+    this.detalle.emit(pais);
   }
 
 }
