@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListadoElementosComponent } from './listado-elementos.component';
+import { PrincipalElementosComponent } from './principal-elementos.component';
 
-describe('ListadoElementosComponent', () => {
-  let component: ListadoElementosComponent;
-  let fixture: ComponentFixture<ListadoElementosComponent>;
+describe('PrincipalElementosComponent', () => {
+  let component: PrincipalElementosComponent;
+  let fixture: ComponentFixture<PrincipalElementosComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ListadoElementosComponent ]
+      declarations: [ PrincipalElementosComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListadoElementosComponent);
+    fixture = TestBed.createComponent(PrincipalElementosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

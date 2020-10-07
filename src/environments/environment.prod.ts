@@ -1,13 +1,14 @@
 export const environment = {
   production: true,
   urlPaises: 'https://restcountries.eu/rest/v2/region/',
+  jugadores: 'https://api.mocki.io/v1/75aa447e',
   firebaseConfig : {
-    apiKey: 'AIzaSyBGFLFGaYABRfq2yV4zu1iBG4t_I45BWug',
-    authDomain: 'appinputoutput-ab88c.firebaseapp.com',
-    databaseURL: 'https://appinputoutput-ab88c.firebaseio.com',
-    projectId: 'appinputoutput-ab88c',
-    storageBucket: 'appinputoutput-ab88c.appspot.com',
-    messagingSenderId: '153188618151',
-    appId: '1:153188618151:web:1615763171c3600ff33082'
+    apiKey: 'AIzaSyAG-thFgGt5SNtYo7lpto5Bdc6M_HmF3gI',
+    authDomain: 'appparcial-b7d35.firebaseapp.com',
+    databaseURL: 'https://appparcial-b7d35.firebaseio.com',
+    projectId: 'appparcial-b7d35',
+    storageBucket: 'appparcial-b7d35.appspot.com',
+    messagingSenderId: '405060538314',
+    appId: '1:405060538314:web:01c5c671abf4bb917f8933'
   }
 };
